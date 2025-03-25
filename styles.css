@@ -41,7 +41,7 @@ body{
     font-size: 1.1em;
 }
 .back{
-    transform: relative(180deg);
+    transform: rotateY(180deg);
 }
 button{
     margin: 10px;
