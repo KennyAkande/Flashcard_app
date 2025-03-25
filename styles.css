@@ -40,10 +40,10 @@ body{
     box-shadow: 0.4px, 8px, rgba(0,0,0,0.1);
     font-size: 1.1em;
 }
-/*.back{
+.back{
     transform: relative(180deg);
 }
-button{
+/*button{
     margin: 10px;
     padding: 12px 25px;
     border: none;
