@@ -1,0 +1,15 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(185deg, #f7ba22, #f09d77);
+    margin: 0;
+    overflow: hidden;
+}
+.flashcard-container{
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+}
