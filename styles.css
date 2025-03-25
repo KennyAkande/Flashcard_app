@@ -43,7 +43,7 @@ body{
 .back{
     transform: relative(180deg);
 }
-/*button{
+button{
     margin: 10px;
     padding: 12px 25px;
     border: none;
@@ -54,9 +54,9 @@ body{
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
 }
-button:hover{
+/* button:hover{
     background-color:  #ff5722;
 }
 button:active{
     transform: scale(0.95);
-} */
+}  */
