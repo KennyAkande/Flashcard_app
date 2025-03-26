@@ -3,12 +3,89 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background: linear-gradient(185deg, #f7ba22, #f09d77);
     margin: 0;
-    overflow: hidden;
+    height: 100vh;
+    overflow: auto;
 }
- .flashcard-container{
+h2{
+    width: 100%;
+}
+h5:hover{
+    cursor: pointer;
+}
+.flashcard-container{
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+  #flashcard{
+    transition: .3s;
+    width: 20%;
+    height: 16vmin;
+    position: relative;
+    transform-style: preserve-3d;
+    margin: 25px;
+   
+    background-color: #f7ba22;
+}
+
+.flashcard.is-flipped{
+    transform: rotateY(180deg);
+    left: 6vmin;
+}
+#flashcard div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #ffff, #c3cfe2);
+    padding: 20px;
+    align-content: center;
+    justify-items: center;
+    box-shadow: 0.4px, 8px, rgba(0,0,0,0.1);
+    font-size: 0.8em;
+   
+   overflow: auto;
+}
+.back{
+    transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* .flashcard-container{
     text-align: center;
     background-color: white;
     padding: 40px;
@@ -59,4 +136,4 @@ button:hover{
 }
 button:active{
     transform: scale(0.95);
-} 
+}  */
