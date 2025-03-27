@@ -1,7 +1,3 @@
-Here's a README for your Flashcard Quiz App:  
-
----
-
 # Flashcard Quiz App  
 
 ## Overview  
@@ -45,6 +41,3 @@ The **Flashcard Quiz App** is an interactive web application that helps users le
 ## License  
 This project is open-source and available for modification and use under the **MIT License**.  
 
----
-
-Let me know if you need any modifications! 🚀
